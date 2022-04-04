@@ -8,10 +8,12 @@
     "start": "nodemon ./app.js"
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.4"
   },
   "engines": {
-    "node": ">= 10.14.2"
+    "node": ">= 14.16.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
