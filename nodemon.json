@@ -1,5 +1,5 @@
 {
   "ignore": [".git", "node_modules/**/node_modules"],
-  "watch": ["app.js", "config.local.json", "src/**/*"],
+  "watch": ["index.js", "src/**/*", "demo/**/*"],
   "ext": "js,json"
 }

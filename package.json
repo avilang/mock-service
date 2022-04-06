@@ -1,12 +1,12 @@
 {
   "name": "mock-service",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "用于开发时 Mock Api 数据",
-  "main": "app.js",
+  "main": "index.js",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "nodemon ./app.js"
+    "start": "nodemon ./demo/app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

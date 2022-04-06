@@ -1,11 +1,10 @@
-let path = require("path");
 let fs = require("fs");
 
-function generateApiPath(project) {
+function generateApiPath(dir) {
   let output = [];
 
   try {
-    let files = fs.readdirSync(path.join(__dirname, "..", "project", project), {
+    let files = fs.readdirSync(dir, {
       encoding: "utf8",
       withFileTypes: true,
     });

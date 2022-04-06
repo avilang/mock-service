@@ -6,6 +6,3 @@ yarn-debug.log*
 yarn-error.log*
 
 node_modules
-project/*
-
-config.local.json
