@@ -1,6 +1,8 @@
 # mock service
 
-简陋的 mock 服务，暂时只用于 node 端。为了方便的调用后台接口或本地 Mock 数据而创建，方便本地开发调试。
+简陋的 mock 服务，暂时只用于 node 端。为了方便的调用后台接口或本地 Mock 数据而创建，方便本地开发调试。  
+
+![mock-service](https://raw.githubusercontent.com/avilang/mock-service/main/mock-service.png)
 
 ## 安装
 
