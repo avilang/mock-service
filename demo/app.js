@@ -9,7 +9,7 @@ mockService.start({
       target: "http://localhost:8080",
     },
     "/apis/*": {
-      target: "http://kf.lessoald.cn",
+      target: "http://kf.abc.cn",
       changeOrigin: true,
     },
   },
