@@ -4,6 +4,10 @@
   "description": "用于开发时 Mock Api 数据",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avilang/mock-service"
+  },
   "scripts": {
     "start": "nodemon ./demo/app.js"
   },
