@@ -1,6 +1,7 @@
 {
   "name": "mock-service",
   "version": "1.0.0",
+  "description": "用于开发时 Mock Api 数据",
   "main": "app.js",
   "license": "MIT",
   "private": true,
