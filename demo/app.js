@@ -2,7 +2,7 @@ let path = require("path");
 let mockService = require("@avilang/mock-service");
 
 mockService.start({
-  port: 9009,
+  port: 9000,
   mock: path.join(__dirname, "./"),
   proxy: {
     "/web/*": {
