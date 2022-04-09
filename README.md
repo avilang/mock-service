@@ -18,16 +18,16 @@ let mockService = require("@avilang/mock-service");
 
 mockService.start({
   // mock 服务端口
-  port: 9009,
+  port: 9000,
   // mock 文件存放目录(绝对路径)
   mock: path.join(__dirname, "./"),
   // http-proxy options 见 https://github.com/chimurai/http-proxy-middleware#http-proxy-options
   proxy: {
-    "/lots-web/*": {
+    "/web/*": {
       target: "http://localhost:8080",
     },
     "/apis/*": {
-      target: "http://dev.abc.cn",
+      target: "http://dev.domain.com",
       changeOrigin: true,
     },
   },
