@@ -1,13 +1,14 @@
 # mock service
 
-简陋的 mock 服务，暂时只用于 node 端。为了方便的调用后台接口或本地 Mock 数据而创建，方便本地开发调试。
+简陋的 mock 服务，暂时只用于 node 端。为了方便的调用后台接口或本地 Mock 数据而创建，方便本地开发调试。  
+响应数据优先返回本地 mock 数据，若没有寻找到本地 mock 文件时，则返回接口数据。
 
 ![mock-service](https://raw.githubusercontent.com/avilang/mock-service/main/mock-service.png)
 
 ## 安装
 
-`npm i @avilang/mock-service`  
-`yarn add @avilang/mock-service`
+- `npm i @avilang/mock-service`  
+- `yarn add @avilang/mock-service`
 
 ## 使用
 
@@ -35,7 +36,6 @@ mockService.start({
 
 ### mock 文件规则
 
-响应数据优先返回本地 mock 数据，若没有寻找到本地 mock 文件时，则返回接口数据  
 例: 请求方法是 `POST` 链接为 `/order/code`，则对应的 mock 文件为 `post_order_code.js`  
 即: `请求方法(英文小写)` + `_` + `请求 URl(分割符号替换成 "_")`
 
